@@ -7,5 +7,8 @@
   "scripts": {
     "start:client": "yarn workspace @express-react-template/client run start",
     "start:server": "yarn workspace @express-react-template/server run start"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
   }
 }
