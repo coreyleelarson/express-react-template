@@ -2,7 +2,8 @@
   "name": "@express-react-template/root",
   "private": true,
   "workspaces": [
-    "apps/*"
+    "client",
+    "server"
   ],
   "scripts": {
     "lint": "yarn lint-scripts && yarn lint-styles",

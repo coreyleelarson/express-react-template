@@ -1697,9 +1697,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@express-react-template/client@workspace:apps/client":
+"@express-react-template/client@workspace:client":
   version: 0.0.0-use.local
-  resolution: "@express-react-template/client@workspace:apps/client"
+  resolution: "@express-react-template/client@workspace:client"
   dependencies:
     "@testing-library/jest-dom": ^5.11.4
     "@testing-library/react": ^11.1.0
@@ -1743,9 +1743,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@express-react-template/server@workspace:apps/server":
+"@express-react-template/server@workspace:server":
   version: 0.0.0-use.local
-  resolution: "@express-react-template/server@workspace:apps/server"
+  resolution: "@express-react-template/server@workspace:server"
   dependencies:
     express: ^4.17.1
     ts-node-dev: ^1.1.6
