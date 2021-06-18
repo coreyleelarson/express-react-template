@@ -1,0 +1,11 @@
+{
+  "name": "@express-react-template/root",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start:client": "yarn workspace @express-react-template/client run start",
+    "start:server": "yarn workspace @express-react-template/server run start"
+  }
+}
